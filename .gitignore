@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+!data/raw/.gitkeep
+
+# Generated/processed data
+data/processed/*
+
+# Model artifacts
+artifacts/*
+
+# Experiment outputs
+experiments/*
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
