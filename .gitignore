@@ -21,6 +21,7 @@ artifacts/*
 
 # Experiment outputs
 experiments/*
+!experiments/experiment_log.csv
 
 # Environment variables
 .env

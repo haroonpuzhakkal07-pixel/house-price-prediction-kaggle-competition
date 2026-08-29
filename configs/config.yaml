@@ -1,0 +1,14 @@
+project:
+  name: "house-price-prediction"
+  random_seed: 42
+
+data:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  train_file: "train.csv"
+  test_file: "test.csv"
+  target_column: "SalePrice"
+
+validation:
+  n_splits: 5
+  shuffle: true
