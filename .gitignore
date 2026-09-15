@@ -4,20 +4,16 @@
 # Python cache
 __pycache__/
 *.py[cod]
-*$py.class
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
-data/raw/*
-!data/raw/.gitkeep
-
-# Generated/processed data
-data/processed/*
-
 # Model artifacts
 artifacts/*
+
+# Raw and processed datasets
+data/raw/*.csv
+data/processed/*
 
 # Experiment outputs
 experiments/*
@@ -25,6 +21,7 @@ experiments/*
 
 # Environment variables
 .env
+.env.*
 
 # OS files
 .DS_Store
